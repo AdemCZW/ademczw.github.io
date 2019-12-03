@@ -75,16 +75,10 @@
 	    }
 		});
 
-		$(window).scroll(function(){
-			if ( $('body').hasClass('offcanvas') ) {
-
-    			$('body').removeClass('offcanvas');
-    			$('.js-colorlib-nav-toggle').removeClass('active');
-			
-	    	}
-		});
+		
 
 	};
+	
 	mobileMenuOutsideClick();
 
 	var carousel = function() {
