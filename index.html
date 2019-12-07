@@ -33,7 +33,9 @@
   <body>
 
 	<div id="colorlib-page">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<div class="">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle sidebar-mb"><i></i></a>
+		</div>
 		<aside id="colorlib-aside" role="complementary" class="js-fullheight">
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
@@ -58,7 +60,7 @@
 				  </label>
 				  <p>to</p>
 				  <label>
-				    <input type="text" class="dateselect2" required="required"/>
+				    <input type="text" class="dateselect" required="required"/>
 				    <span>Date</span>
 				  </label>
 				  <button>search</button>
@@ -165,12 +167,11 @@
 
 
   <script type="text/javascript">
-  $(function() {
-    $('#datetimepicker3').datetimepicker({
-      pickDate: false
-    });
-  });
-</script>
+  $('.dateselect').datepicker({
+    format: 'mm/dd/yyyy',
+    // startDate: '-3d'
+	});
+	</script>
 
 
   <script src="js/jquery.min.js"></script>

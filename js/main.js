@@ -49,9 +49,12 @@
 
 			if ($('body').hasClass('offcanvas')) {
 				$this.removeClass('active');
+				$this.addClass('sidebar-mb')
 				$('body').removeClass('offcanvas');	
+
 			} else {
 				$this.addClass('active');
+				$this.removeClass('sidebar-mb');
 				$('body').addClass('offcanvas');	
 			}
 		});
