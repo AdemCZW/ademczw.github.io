@@ -17,18 +17,17 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
 
     <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-
-    
     <link rel="stylesheet" href="css/mycss.css">
-
-    
+    <link rel="stylesheet" href="css/ionicons.min.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 
 
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
 
@@ -45,11 +44,30 @@
 				</ul>
 			</nav>
 
-			<div class="colorlib-footer">
-				<h1 id="colorlib-logo" class="mb-5"><a href="index.html" style="background-image: url(images/bg_1.jpg);">Andrea <span>Moore</span></a></h1>
-				<p class="pfooter"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-	  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+      <div class="setting">
+          Start Date: <input id="startDate"/>
+              End Date: <input id="endDate"/>   
+              <button class="btn-sh">Serach</button>
+              <div class="home-btn">
+            <button>Login</button>
+            <button>Sign up</button>
+          </div>      
+      </div>
+
+      <div class="colorlib-footer">
+        <h1 id="colorlib-logo" class="mb-4"><a href="index.html" style="background-color: #0F4C81;">Bags<span></span></a></h1>
+        <div class="mb-4">
+          
+          <form action="#" class="colorlib-subscribe-form">
+            <!--<div class="form-group d-flex">
+              <div class="icon"><span class="icon-paper-plane"></span></div>
+              <input type="text" class="form-control" placeholder="Enter Email Address">
+            </div> -->
+          </form>
+        </div>
+        <p class="pfooter"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with by bags
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 			</div>
 		</aside> <!-- END COLORLIB-ASIDE -->
 		<div id="colorlib-main">
@@ -59,35 +77,14 @@
 	    	<div class="container-fluid px-0">
 	    		<div class="row d-flex">
 	    			<div class="col-md-6 d-flex">
-	    				<div class="img d-flex align-self-stretch align-items-center js-fullheight" style="background-image:url(images/starwars.jpg);">
+	    				<div class="img d-flex align-self-stretch align-items-center js-fullheight" style="background-image:url(images/about.jpg);">
 	    				</div>
 	    			</div>
 	    			<div class="col-md-6 d-flex align-items-center">
 	    				<div class="text px-4 pt-5 pt-md-0 px-md-4 pr-md-5 ftco-animate">
-		            <h2 class="mb-4">Welcome <span>Bags</span> a backpacker Blogger &amp; Share</h2>
-		            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <div class="wrapper">
-  <label>
-    <input type="text" required="required"/>
-    <span>Name</span>
-  </label>
-  
-  <label>
-<!--     <input data-provide="datepicker" required="required"> -->
-    <input type="text" class="datepickup" required="required"/>
-    <span>Date</span>
-  </label>
-  
-  <label>
-    <input type="text" class="datepickup" required="required"/>
-    <span>Date</span>
-  </label>
-  
-  
-  
-  
-  
-</div>
+		            <h2 class="mb-4">Welcome <span>Bags</span> , backpacker &amp; Share with you</h2>
+		            <p>“讓世界上每個旅行者,都能互相幫助,能一起看更遠的地方,為對方走更遠的路”</p>
+               
 	            </div>
 		        </div>
 	        </div>
@@ -112,16 +109,29 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js'></script>
-<script type="text/javascript">
-    $('.datepickup').datepicker({
-    format: 'mm/dd/yyyy',
-    // startDate: '-3d'
-  });
+  
+  <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+
+  <script>
+          var today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+          $('#startDate').datepicker({
+              uiLibrary: 'bootstrap4',
+              iconsLibrary: 'fontawesome',
+              minDate: today,
+              maxDate: function () {
+                  return $('#endDate').val();
+              }
+          });
+          $('#endDate').datepicker({
+              uiLibrary: 'bootstrap4',
+              iconsLibrary: 'fontawesome',
+              minDate: function () {
+                  return $('#startDate').val();
+              }
+          });
   </script>
   </body>
 </html>
