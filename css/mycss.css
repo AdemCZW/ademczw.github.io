@@ -1,5 +1,5 @@
 .bk-color {
-  background-image: url(../images/sky.jpg);
+  
 	//**background-image: linear-gradient(to bottom right, #0F4C81, #0F4C81);**///
 }
 
@@ -11,15 +11,16 @@
 .home-btn {
 	width: 100%;
   color: #0F4C81;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border-radius: 15px;
   box-shadow: none;
   outline: none;
   border: 1px solid transparent;
   display: inline-flex;
   margin-top: 1rem;
+  outline :none;
+  box-shadow: 0px;
 
-  
 }
 
 .home-text-1 {
@@ -68,6 +69,8 @@
 	background-color: #0F4C81;
   color: #fff;
   border-radius: 3px;
+  outline: none;
+  outline:0 none !important; blr:expression(this.onFocus=this.blur());
 }
 
 .btn-sh {
@@ -139,8 +142,13 @@
   padding: 2.5rem;
   background-color: #0F4C81;
 
-
   }
+  .home-text h3 {
+  color:#0F4C81;
+  font-size: 3rem;
+  margin-bottom: 3.5em;
+}
+
 }
 
 
